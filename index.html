@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anna Reis Beauty Makeup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Galada&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="static bg-cyan-50 text-gray-900"
+  style="font-family: Galada,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+  <header class="relative text-center text-white drop-shadow-xl">
+    <h1 class="absolute w-full text-gray-50 font-extrabold transform z-10 md:text-6xl mx-auto leading-tight"
+      style="font-size: clamp(2rem, 8vw, 6rem); top: clamp(20%, 35%, 45%);">
+      Anna Reis Beauty Makeup
+    </h1>
+    <video class="w-full h-[35vh] object-cover opacity-80 z-0" muted autoplay loop>
+      <source src="./static/7291133-uhd_2160_3840_25fps.mp4" type="video/webm">
+    </video>
+  </header>
+
+  <main>
+    <!-- Galería de Imágenes -->
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-10 bg-cyan-100">
+      <img src="./static/images/pexels-fotios-photos-851219.jpg" class="rounded-2xl shadow-lg object-cover w-full h-80">
+      <img src="./static/images/pexels-amiresel-3912572.jpg" class="rounded-2xl shadow-lg object-cover w-full h-80">
+      <img src="./static/images/pexels-pixabay-301367.jpg" class="rounded-2xl shadow-lg object-cover w-full h-80">
+      <img src="./static/images/pexels-pnw-prod-9219006.jpg" class="rounded-2xl shadow-lg object-cover w-full h-80">
+    </section>
+
+    <!-- Botón de Agendamiento -->
+    <section class="flex justify-center py-10">
+      <a href="#agendamento"
+        class="text-6xl font-semibold bg-cyan-300 text-white px-20 py-8 rounded-lg shadow-md hover:bg-cyan-400 transition outline-8 outline-cyan-300">Agendar</a>
+    </section>
+
+    <!-- Horario de Atención -->
+    <section id="agendamento" class="flex justify-center py-10 bg-cyan-100">
+      <table class="table-auto w-full max-w-lg bg-white border border-cyan-300 shadow-lg rounded-xl text-3xl">
+        <thead>
+          <tr class="bg-cyan-300 text-white">
+            <th colspan="2" class="py-4 text-3xl font-bold rounded-t-xl">Horário de Atendimento</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr class="border-b border-cyan-300 bg-cyan-50">
+            <td class="py-4 px-6 font-semibold">Segunda - Sexta:</td>
+            <td class="py-4 px-6">09:00 - 18:00</td>
+          </tr>
+          <tr class="bg-cyan-50">
+            <td class="py-4 px-6 font-semibold">Sábado:</td>
+            <td class="py-4 px-6">09:00 - 14:00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="flex flex-col md:flex-row items-center justify-center p-10 bg-white">
+      <img src="./static/images/pexels-pixabay-301367.jpg" alt="Anna Reis"
+        class="w-72 h-72 rounded-full shadow-lg mb-6 md:mb-0 md:mr-10">
+      <div>
+        <h2 class="text-4xl font-bold text-gray-800">Sobre Mim</h2>
+        <p class="text-2xl text-gray-600 mt-4 max-w-2xl">Olá! Sou Anna Reis, maquiadora profissional especializada em
+          realçar a beleza natural de cada pessoa. Com anos de experiência, estou aqui para transformar sua visão em
+          realidade, seja para um evento especial, casamento ou sessão fotográfica.</p>
+      </div>
+    </section>
+  </main>
+  <!----------- Footer ---------------->
+  <footer class="bg-gray-900 text-lg text-white text-center py-6 mt-10">
+    <div class="flex justify-center gap-4 mt-4">
+      <a href="#" class="hover:text-cyan-400 transition relative group">
+        Instagram
+        <span
+          class="absolute left-0 bottom-0 w-0 h-[2px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#" class="hover:text-cyan-400 transition relative group">
+        Facebook
+        <span
+          class="absolute left-0 bottom-0 w-0 h-[2px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+      </a>
+      <a href="#" class="hover:text-cyan-400 transition relative group">
+        WhatsApp
+        <span
+          class="absolute left-0 bottom-0 w-0 h-[2px] bg-cyan-400 transition-all duration-300 group-hover:w-full"></span>
+      </a>
+    </div>
+    <p>Desenvolvido por <a class="text-cyan-400" href="https://saulevg.vercel.app/">SaulEVG</a></p>
+  </footer>
+  <!-------WhatsApp Button --------->
+  <div class="fixed size-20 right-0 bottom-0 animate-bounce">
+    <a class="" href="#"><img src="./static/images/whats.png" alt=""></a>
+  </div>
+  <!-- Social Media Buttons -->
+  <div class="fixed grid gap-2 left-0 top-10 sm:top-14 lg:top-15">
+    <a href="#" class="group">
+      <div
+        class="bg-blue-700 w-20 h-10 pr-1 rounded-tr-xl rounded-br-xl flex justify-end items-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg">
+        <img class="size-8 invert" src="./static/images/facebook.png" alt="">
+      </div>
+    </a>
+    <a href="#" class="group">
+      <div
+        class="bg-pink-500 w-20 h-10 pr-2 rounded-tr-xl rounded-br-xl flex justify-end items-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg">
+        <img class="size-8 invert" src="./static/images/instagram.png" alt="">
+      </div>
+    </a>
+    <a href="#" class="group">
+      <div
+        class="bg-gray-900 w-20 h-10 pr-2 rounded-tr-xl rounded-br-xl flex justify-end items-center transition-all duration-300 group-hover:scale-110 group-hover:shadow-lg">
+        <img class="size-8" src="./static/images/tik-tok.png" alt="">
+      </div>
+    </a>
+  </div>
+</body>
+
+</html>
